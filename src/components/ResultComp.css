@@ -1,0 +1,26 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 0;
+    gap: 12px;
+}
+
+.result-container{
+    border: 1px solid #000;
+    border-radius: 1rem;
+    padding: 12px;
+    text-align: center;
+}
+.income{
+    background-color: #a5ffd6;
+}
+
+.expense{
+    background-color: #ff686b;
+}
+
+.balance{
+    background-color: #fff;
+}
